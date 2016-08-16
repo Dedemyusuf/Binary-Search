@@ -1,0 +1,28 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main(){
+ const int Arr[8] = {0,1,55,68,72,81,98,100};
+ int bst;
+
+cout<<"Masukan Data Yang Anda Dicari : ";
+ cin>>bst;
+int Nawal=0, Nakhir=10, Ntengah;
+
+ while (Nawal <= Nakhir)
+  { Ntengah = (Nawal + Nakhir)/2;
+  if (bst > Arr[Ntengah] )
+      { Nawal = Ntengah + 1; }
+  else if (bst < Arr[Ntengah])
+  { Nakhir = Ntengah - 1;}
+  else { Nawal = Nakhir +1;
+  }
+   }
+   if (bst == Arr[Ntengah])
+   {cout<<" Target Data yang anda cari ditemukan, urutan Ke= "<< Ntengah +1<<endl;
+   }
+   else {
+    cout<<"Maaf, Data yang anda cari tidak ditemukan "<<endl;
+   }
+getch();
+}
