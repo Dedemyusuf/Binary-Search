@@ -1,0 +1,6 @@
+if (bst == Arr[Ntengah])
+   {cout<<" Target Data yang anda cari ditemukan, urutan Ke= "<< Ntengah +1<<endl;
+   }
+   else {
+    cout<<"Maaf, Data yang anda cari tidak ditemukan "<<endl;
+   }
