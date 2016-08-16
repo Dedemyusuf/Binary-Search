@@ -1,0 +1,10 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main(){
+ const int Arr[8] = {0,1,55,68,72,81,98,100};
+ int bst;
+
+cout<<"Masukan Data Yang Anda Dicari : ";
+ cin>>bst;
+int Nawal=0, Nakhir=10, Ntengah;
